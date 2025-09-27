@@ -1,0 +1,44 @@
+{
+  "accounts": [
+    {
+      "id": "acc_001",
+      "accountNumber": "001-123456-01",
+      "type": "checking",
+      "holderName": "Juan Pérez",
+      "holderPhoto": "https://cdn.quasar.dev/img/avatar1.jpg",
+      "balance": 15000.50,
+      "currency": "USD",
+      "bankName": "Banco Central"
+    },
+    {
+      "id": "acc_002",
+      "accountNumber": "001-123457-01",
+      "type": "savings",
+      "holderName": "María García",
+      "holderPhoto": "https://cdn.quasar.dev/img/avatar2.jpg",
+      "balance": 25000.75,
+      "currency": "USD",
+      "bankName": "Banco Central"
+    },
+    {
+      "id": "acc_003",
+      "accountNumber": "001-123458-01",
+      "type": "business",
+      "holderName": "Empresa XYZ",
+      "holderPhoto": "/avatars/business1.jpg",
+      "balance": 100000.00,
+      "currency": "USD",
+      "bankName": "Banco Central"
+    },
+    {
+      "id": "acc_004",
+      "accountNumber": "001-123459-01",
+      "type": "checking",
+      "holderName": "Carlos Rodríguez",
+      "holderPhoto": "https://cdn.quasar.dev/img/avatar4.jpg",
+      "balance": 8500.25,
+      "currency": "USD",
+      "bankName": "Banco Central"
+    }
+  ]
+}

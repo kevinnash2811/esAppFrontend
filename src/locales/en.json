@@ -1,0 +1,195 @@
+{
+  "banking": {
+    "title": "Banking Simulation",
+    "simulator": {
+      "title": "Transfer Simulator",
+      "fromAccount": "From Account",
+      "toAccount": "To Account",
+      "labelOriginAccount":"Select origin account",
+      "labelDestinationAccount":"Select destination account",
+      "amount": "Amount to Transfer",
+      "labelAmount": "Enter the amount",
+      "description": "Description (optional)",
+      "labelDescription":"Transfer Description",
+      "transfer": "Transfer",
+      "textInfo":"current value",
+      "balance": "Balance",
+      "type": "type",
+      "transferError": "Transfer error",
+      "accountTypes": {
+        "checking": "Checking Account",
+        "savings": "Savings Account",
+        "investment": "Investment Account"
+      },
+      "validation": {
+        "selectOriginAccount": "Select an origin account",
+        "selectDestinationAccount": "Select a destination account",
+        "sameAccount": "Cannot transfer to the same account",
+        "insufficientBalance": "Insufficient balance",
+        "invalidAmount": "Invalid amount"
+      },
+      "resument":{
+        "title1":"Transfer Summary",
+        "title2":"From:",
+        "title3":"To:",
+        "title4":"Amount:",
+        "title5":"New origin balance:"
+      },
+      "alertLabel":"The amount must be greater than 0",
+      "success": "Transfer completed successfully"
+    },
+    "history": {
+      "title": "Today's History",
+      "filter": "Filter",
+      "clear": "Clear",
+      "allAccounts": "All accounts",
+      "filterByAccount": "Filter by account",
+      "minAmount": "Minimum amount",
+      "maxAmount": "Maximum amount",
+      "amountRange": "Amount range",
+      "noTransactions": "No transactions today",
+      "filteredTotal": "Filtered total",
+      "transactions": "Transactions",
+      "accountNotFound": "Account not found",
+      "statusCompleted": "Completed",
+      "statusFailed": "Failed",
+      "statusPending": "Pending",
+      "sampleTransfer": "Test transfer",
+      "samplePayment": "Service payment"
+    },
+    "dashboard": {
+      "title": "Summary Dashboard",
+      "totalTransactions": "Total Transactions",
+      "totalAmount": "Total Amount",
+      "mostActiveAccount": "Most Active Account",
+      "averageTransaction": "Average per Transaction",
+      "cryptoMarket": "Crypto Market",
+      "notAvailable": "N/A",
+      "symbol": "Symbol",
+      "name": "Name",
+      "price": "Price",
+      "change24h": "Change 24h",
+      "marketCap": "Market Cap",
+       "lastUpdated": "Last updated",
+      "topGainer": "Top gainer",
+      "topLoser": "Top loser",
+      "totalMarketCap": "Total market cap",
+      "transactionTrend": "Transaction trend",
+      "recentActivity": "Recent activity",
+      "chartPlaceholder": "Trend chart will be displayed here",
+      "noCryptoData": "No crypto data available",
+       "connected": "Connected",
+      "disconnected": "Disconnected",
+      "realTimeData": "Real-time data",
+      "usingMockData": "Using mock data",
+      "lastUpdate": "Last update",
+      "refresh": "Refresh",
+      "updateInterval": "Update interval",
+      "loadingData": "Loading real-time data...",
+      "priceChart": "Real-Time Price Chart",
+      "liveChart": "Live Chart - BTC/USD",
+      "marketOverview": "Market Overview",
+      "totalCryptos": "Total Cryptocurrencies",
+      "volume24h": "24h Volume",
+      "dominanceBTC": "BTC Dominance",
+      "priceChange": "Price Change",
+      "connecting": "Connecting...",
+      "dailyGoal": "Daily goal",
+      "monthlyAverage": "Monthly average",
+      "activeUsers": "Active users",
+      "avgComparedToWeek": "Vs. last week",
+      
+      "transactionsTooltip": "Total number of transactions processed today",
+      "amountTooltip": "Total volume moved in transactions",
+      "activeAccountTooltip": "Account with highest transactional activity",
+      "averageTooltip": "Average value per transaction",
+      
+      "goalProgress": "Goal progress",
+      "trendIndicator": "Trend indicator",
+      "performance": "Performance",
+      "target": "Target",
+      "achievement": "Achievement",
+      
+      "vsYesterday": "vs yesterday",
+      "today": "today",
+      "thisWeek": "this week",
+      "thisMonth": "this month",
+      
+      "viewDetails": "View details",
+      "seeAllTransactions": "See all transactions",
+      "downloadReport": "Download report",
+      
+      "successRate": "Success rate",
+      "failedTransactions": "Failed transactions",
+      "pendingOperations": "Pending operations",
+      "completedToday": "Completed today",
+      
+      "peakHours": "Peak hours",
+      "lowActivity": "Low activity",
+      "volumeTrend": "Volume trend",
+      
+      "realTimeUpdate": "Real-time update",
+      "nextUpdate": "Next update",
+      "autoRefresh": "Auto-refresh",
+      
+      "dataUpdated": "Data updated successfully",
+      "refreshComplete": "Refresh completed",
+      "updating": "Updating...",
+      
+      "connectionStable": "Connection stable",
+      "connectionWeak": "Weak connection",
+      "reconnecting": "Reconnecting...",
+      "connectionLost": "Connection lost",
+      
+      "excellentPerformance": "Excellent performance",
+      "goodPerformance": "Good performance",
+      "averagePerformance": "Average performance",
+      "needsImprovement": "Needs improvement",
+      
+      "aboveTarget": "Above target",
+      "onTarget": "On target",
+      "belowTarget": "Below target",
+      "exceededExpectations": "Exceeded expectations"
+    }
+  },
+  "layout": {
+    "title": "Transactional System",
+    "menu": {
+      "ariaLabel": "Menu"
+    },
+    "search": {
+      "placeholder": "Search transactions, accounts..."
+    },
+    "tooltips": {
+      "apps": "Applications",
+      "notifications": "Notifications"
+    },
+    "user": {
+      "avatarAlt": "User avatar",
+      "profile": "My Profile",
+      "settings": "Settings",
+      "logout": "Logout",
+      "currentUser": "Current User"
+    },
+    "navigation": {
+      "title": "Navigation",
+      "dashboard": "Dashboard",
+      "transactions": "Transactions",
+      "reports": "Reports"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "newTransaction": "New Transaction",
+      "viewStatement": "View Statement"
+    },
+    "support": {
+      "title": "Support",
+      "helpCenter": "Help Center",
+      "contactSupport": "Contact Support"
+    },
+    "footer": {
+      "version": "v1.0.0 - Transactional System",
+      "copyright": "© 2024 All rights reserved"
+    }
+  }
+}

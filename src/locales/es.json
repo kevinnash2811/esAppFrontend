@@ -1,0 +1,195 @@
+{
+  "banking": {
+    "title": "Simulación Bancaria",
+    "simulator": {
+      "title": "Simulador de Transferencias",
+      "fromAccount": "Cuenta Origen",
+      "labelOriginAccount":"Selecciona cuenta origen",
+      "toAccount": "Cuenta Destino",
+      "labelDestinationAccount":"Selecciona cuenta Destino",
+      "amount": "Monto a Transferir",
+      "labelAmount": "Ingrese el monto",
+      "description": "Descripción (opcional)",
+      "labelDescription":"Descripción de la transferencia",
+      "textInfo":"Valor actual",
+      "transfer": "Transferir",
+      "balance": "Saldo",
+      "type": "tipo",
+      "transferError": "Error en la transferencia",
+      "accountTypes": {
+        "checking": "Cuenta Corriente",
+        "savings": "Cuenta de Ahorros",
+        "investment": "Cuenta de Inversión"
+      },
+      "validation": {
+        "selectOriginAccount": "Selecciona una cuenta origen",
+        "selectDestinationAccount": "Selecciona una cuenta destino",
+        "sameAccount": "No puedes transferir a la misma cuenta",
+        "insufficientBalance": "Saldo insuficiente",
+        "invalidAmount": "Monto inválido"
+      },
+      "resument":{
+        "title1":"Resumen de la Tranferencia",
+        "title2":"De:",
+        "title3":"Para:",
+        "title4":"Monto:",
+        "title5":"Nuevo saldo origen:"
+      },
+      "alertLabel":"El monto debe ser mayor a 0",
+      "success": "Transferencia realizada exitosamente"
+    },
+     "history": {
+      "title": "Historial del Día",
+      "filter": "Filtrar",
+      "clear": "Limpiar",
+      "allAccounts": "Todas las cuentas",
+      "filterByAccount": "Filtrar por cuenta",
+      "minAmount": "Monto mínimo",
+      "maxAmount": "Monto máximo",
+      "amountRange": "Rango de monto",
+      "noTransactions": "No hay transacciones hoy",
+      "filteredTotal": "Total filtrado",
+      "transactions": "Transacciones",
+      "accountNotFound": "Cuenta no encontrada",
+      "statusCompleted": "Completado",
+      "statusFailed": "Fallido",
+      "statusPending": "Pendiente",
+      "sampleTransfer": "Transferencia de prueba",
+      "samplePayment": "Pago de servicios"
+    },
+    "dashboard": {
+      "title": "Dashboard Resumen",
+      "totalTransactions": "Total Transacciones",
+      "totalAmount": "Monto Total",
+      "mostActiveAccount": "Cuenta Más Activa",
+      "averageTransaction": "Promedio por Transacción",
+      "cryptoMarket": "Mercado Cripto",
+      "notAvailable": "N/A",
+      "symbol": "Símbolo",
+      "name": "Nombre",
+      "price": "Precio",
+      "change24h": "Cambio 24h",
+      "marketCap": "Capitalización de Mercado",
+      "lastUpdated": "Última actualización",
+      "topGainer": "Mayor ganancia",
+      "topLoser": "Mayor pérdida",
+      "totalMarketCap": "Market Cap total",
+      "transactionTrend": "Tendencia de transacciones",
+      "recentActivity": "Actividad reciente",
+      "chartPlaceholder": "Gráfico de tendencias se mostrará aquí",
+      "noCryptoData": "No hay datos cripto disponibles",
+      "connected": "Conectado",
+      "disconnected": "Desconectado",
+      "realTimeData": "Datos en tiempo real",
+      "usingMockData": "Usando datos de prueba",
+      "lastUpdate": "Última actualización",
+      "refresh": "Actualizar",
+      "updateInterval": "Intervalo de actualización",
+      "loadingData": "Cargando datos en tiempo real...",
+      "priceChart": "Gráfico de Precios en Tiempo Real",
+      "liveChart": "Gráfico en vivo - BTC/USD",
+      "marketOverview": "Resumen del Mercado",
+      "totalCryptos": "Total Criptomonedas",
+      "volume24h": "Volumen 24h",
+      "dominanceBTC": "Dominancia BTC",
+      "priceChange": "Cambio de Precio",
+      "connecting": "Conectando...",
+      "dailyGoal": "Objetivo diario",
+      "monthlyAverage": "Promedio mensual",
+      "activeUsers": "Usuarios activos",
+      "avgComparedToWeek": "Vs. semana pasada",
+      
+      "transactionsTooltip": "Número total de transacciones procesadas hoy",
+      "amountTooltip": "Volumen total movido en transacciones",
+      "activeAccountTooltip": "Cuenta con mayor actividad transaccional",
+      "averageTooltip": "Valor promedio por transacción",
+      
+      "goalProgress": "Progreso del objetivo",
+      "trendIndicator": "Indicador de tendencia",
+      "performance": "Rendimiento",
+      "target": "Objetivo",
+      "achievement": "Logro",
+      
+      "vsYesterday": "vs ayer",
+      "today": "hoy",
+      "thisWeek": "esta semana",
+      "thisMonth": "este mes",
+      
+      "viewDetails": "Ver detalles",
+      "seeAllTransactions": "Ver todas las transacciones",
+      "downloadReport": "Descargar reporte",
+      
+      "successRate": "Tasa de éxito",
+      "failedTransactions": "Transacciones fallidas",
+      "pendingOperations": "Operaciones pendientes",
+      "completedToday": "Completadas hoy",
+      
+      "peakHours": "Horas pico",
+      "lowActivity": "Baja actividad",
+      "volumeTrend": "Tendencia de volumen",
+      
+      "realTimeUpdate": "Actualización en tiempo real",
+      "nextUpdate": "Próxima actualización",
+      "autoRefresh": "Auto-actualizar",
+      
+      "dataUpdated": "Datos actualizados correctamente",
+      "refreshComplete": "Actualización completada",
+      "updating": "Actualizando...",
+      
+      "connectionStable": "Conexión estable",
+      "connectionWeak": "Conexión débil",
+      "reconnecting": "Reconectando...",
+      "connectionLost": "Conexión perdida",
+      
+      "excellentPerformance": "Rendimiento excelente",
+      "goodPerformance": "Rendimiento bueno",
+      "averagePerformance": "Rendimiento promedio",
+      "needsImprovement": "Requiere mejora",
+      
+      "aboveTarget": "Por encima del objetivo",
+      "onTarget": "En el objetivo",
+      "belowTarget": "Por debajo del objetivo",
+      "exceededExpectations": "Superó expectaciones"
+    }
+  },
+  "layout": {
+    "title": "Sistema Transaccional",
+    "menu": {
+      "ariaLabel": "Menú"
+    },
+    "search": {
+      "placeholder": "Buscar transacciones, cuentas..."
+    },
+    "tooltips": {
+      "apps": "Aplicaciones",
+      "notifications": "Notificaciones"
+    },
+    "user": {
+      "avatarAlt": "Avatar del usuario",
+      "profile": "Mi Perfil",
+      "settings": "Configuración",
+      "logout": "Cerrar Sesión",
+      "currentUser": "Usuario Actual"
+    },
+    "navigation": {
+      "title": "Navegación",
+      "dashboard": "Dashboard",
+      "transactions": "Transacciones",
+      "reports": "Reportes"
+    },
+    "quickActions": {
+      "title": "Acciones Rápidas",
+      "newTransaction": "Nueva Transacción",
+      "viewStatement": "Ver Estado Cuenta"
+    },
+    "support": {
+      "title": "Soporte",
+      "helpCenter": "Centro de Ayuda",
+      "contactSupport": "Contactar Soporte"
+    },
+    "footer": {
+      "version": "v1.0.0 - Sistema Transaccional",
+      "copyright": "© 2024 Todos los derechos reservados"
+    }
+  }
+}

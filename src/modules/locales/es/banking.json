@@ -1,0 +1,36 @@
+{
+  "banking": {
+    "title": "Simulación Bancaria",
+    "simulator": {
+      "title": "Simulador de Transferencias",
+      "fromAccount": "Cuenta Origen",
+      "toAccount": "Cuenta Destino",
+      "amount": "Monto a Transferir",
+      "description": "Descripción (opcional)",
+      "transfer": "Transferir",
+      "validation": {
+        "sameAccount": "No puedes transferir a la misma cuenta",
+        "insufficientBalance": "Saldo insuficiente",
+        "invalidAmount": "Monto inválido"
+      },
+      "success": "Transferencia realizada exitosamente"
+    },
+    "history": {
+      "title": "Historial del Día",
+      "filter": "Filtrar",
+      "allAccounts": "Todas las cuentas",
+      "from": "Desde",
+      "to": "Hasta",
+      "amountRange": "Rango de monto",
+      "noTransactions": "No hay transacciones hoy"
+    },
+    "dashboard": {
+      "title": "Dashboard Resumen",
+      "totalTransactions": "Total Transacciones",
+      "totalAmount": "Monto Total",
+      "mostActiveAccount": "Cuenta Más Activa",
+      "averageTransaction": "Promedio por Transacción",
+      "cryptoMarket": "Mercado Cripto"
+    }
+  }
+}

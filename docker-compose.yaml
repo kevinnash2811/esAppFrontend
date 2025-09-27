@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  web:
+    build: 
+      context: .  # Ruta donde está tu Dockerfile
+      dockerfile: Dockerfile
+    image: esapp:1.0.0  # Opcional: para taggear la imagen
+    ports:
+      - "3001:80"
+    container_name: EsApp
